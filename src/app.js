@@ -15,8 +15,8 @@ export default class App extends React.Component {
 				<Header />
 				<Router>
 					<div>
-						<Route exact path="/" component={Home} />
-						<Route path="/perfil" component={Perfil} />
+						<Route exact path="/" component={ Home } />
+						<Route path="/perfil" component={ Perfil } />
 					</div>
 				</Router>
 			</div>

@@ -3,6 +3,7 @@ import { render } from 'react-dom'
 import { BrowserRouter as Router, Route } from "react-router-dom"
 
 import Home from './pages/home'
+import Perfil from './pages/perfil/perfil'
 import Header from './components/header/header'
 
 import './styles'
@@ -14,7 +15,8 @@ export default class App extends React.Component {
 				<Header />
 				<Router>
 					<div>
-						<Route exact path="/home" component={Home} />
+						<Route exact path="/" component={Home} />
+						<Route path="/perfil" component={Perfil} />
 					</div>
 				</Router>
 			</div>

@@ -5,7 +5,8 @@
 }
 
 body {
-  background: var(--dark-grey);;
+  background: var(--dark-grey);
+  overflow-x: hidden;
 }
 
 :root {
